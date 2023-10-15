@@ -1,0 +1,180 @@
+.top-page {
+    background: linear-gradient(75deg, #FEDDEE 0%, #FCF6FC 31.77%, #C5EAED 64.58%, #FDDDFE 100%);
+    width: 100%;
+    height: 803px;
+    flex-shrink: 0;
+    /* filter: blur(50px); */
+
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 85px;
+    /* background-color: #FFFFFF; */
+    flex-shrink: 0;
+
+}
+
+.menu-items ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-items ul li {
+    display: inline-flex;
+    height: 10px;
+    padding: 16px;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+    color: var(--Black, #000);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    gap: 20px;
+    height: auto;
+
+
+}
+
+.register {
+    display: flex;
+    width: 100px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1.5px solid #0076CE;
+    background-color: #0076CE;
+    color: #FFF;
+    height: 51px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: white;
+}
+
+.login {
+    height: 51px;
+    display: flex;
+    width: 100px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1.5px solid #0076CE;
+    color: #0076CE;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.heading {
+    width: 100%;
+    background: linear-gradient(91deg, #0076CE 26.63%, #9400D3 65.81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    color: var(--fs-search-text, #000);
+    font-family: Poppins;
+    font-style: normal;
+    margin: 75px 10px;
+    padding: 10px 40px;
+}
+
+.heading p {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-contents {
+    display: flex;
+    justify-content: space-around;
+    margin: 49px 7px;
+    background: url("C:\Users\vivek\OneDrive\Desktop\React Vite\figma-design\src\assets\back2.png");
+}
+
+.input input {
+    border-radius: 10px;
+    border: 1px solid #BFBFBF;
+    background: #FFF;
+    width: 350px;
+    height: 53px;
+    flex-shrink: 0;
+}
+
+.input button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: #0076CE;
+    width: 100px;
+    height: 53px;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 83.966px;
+    align-items: flex-start;
+    gap: 10.496px;
+    flex: 1 0 0;
+    /* background: lightgray 50%; */
+    width: 629.741px;
+    gap: 7.793px;
+
+}
+
+.picture img {
+    display: flex;
+    width: 198.718px;
+    height: 403.034px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.496px;
+    border-radius: 20.991px;
+    /* background: lightgray 50%; */
+
+}
+
+.picture2 {
+    margin: -60px 10px;
+}
+
+.picture3 {
+    margin: -40px 10px;
+}

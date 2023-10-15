@@ -1,0 +1,129 @@
+
+.back {
+    fill: var(--fs-search-banner-blue, #DDF3FF);
+    width: 100%;
+    height: 757px;
+    flex-shrink: 0;
+    z-index: -2;
+    background: var("M0.107497 567.266C-13.6344 640.276 0.107497 757 0.107497 757H1536V0C1536 0 1478 47.0138 1451 68C1341.67 152.976 1246.29 92.2517 1105.5 116C957.033 141.043 919.752 257.324 770.187 276.037C632.645 293.245 557.716 199.916 420.345 218.238C255.102 240.279 134.274 284.651 52.3705 418.468C19.8 471.682 11.4329 507.095 0.107497 567.266Z" fill="#DDF3FF"
+        );
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+    margin: 20px 10px;
+    border-radius: 20px;
+    align-items: center;
+    width: 405px;
+    height: 266px;
+    flex-shrink: 0;
+    background: var(--fs-search-card-bg, #FFF);
+    box-shadow: 2px 4px 15px 0px rgba(133, 133, 167, 0.25);
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background: var(--fs-search-table-bg, #F4F4F4);
+    width: 341px;
+    height: 100px;
+
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-heading h5 {
+    padding: 0px 5px;
+    color: var(--fs-search-primary, #0076CE);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.sub-heading h5 span {
+    color: black;
+    font-size: medium;
+}
+
+.sub-heading h4 span {
+    color: black;
+    font-size: medium;
+}
+
+.sub-heading h4 {
+    color: var(--fs-search-red, #F66);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.title-section {
+    align-items: center;
+    justify-content: space-around;
+    color: var(--fs-search-text, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 5px;
+}
+
+.join h3 {
+    background: linear-gradient(90deg, #0076CE 43.35%, #9400D3 65.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.join h3 h2 {
+    /* border: solid red 5px; */
+    color: black;
+    /* font-family: Poppins; */
+    /* border: solid red 5px; */
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.bottom-paragraph {
+    color: var(--fs-search-text, #000);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    width: 100%;
+    padding:5px 20px;
+    /* border: solid red 5px; */
+}
+.join{
+    background: url("C:\Users\vivek\OneDrive\Desktop\React Vite\figma-design\src\assets\backgournd1.jpg");
+}

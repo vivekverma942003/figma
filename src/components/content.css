@@ -1,0 +1,96 @@
+.content {
+    width: 97%;
+    height: 600px;
+    background: var(--fs-search-surface-bg, #FAFBFC);
+    display: flex;
+    padding: 5px 20px;
+}
+
+.content-image img {
+    /* background:url(); */
+    width: 281.694px;
+    height: 336.326px;
+    flex-shrink: 0;
+    width: 281.694px;
+    height: 336.326px;
+    flex-shrink: 0;
+
+    /* background: url(<C:\Users\vivek\OneDrive\Desktop\React Vite\figma-design\src\assets\picture1.png>), lightgray -263.748px -91.507px / 287.985% 165.371% no-repeat; */
+    /* background: url(<C:\Users\vivek\OneDrive\Desktop\React Vite\figma-design\src\assets>), lightgray -83.827px -188.248px / 232.259% 291.762% no-repeat; */
+}
+
+.content-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    flex-basis: 40%;
+    /* border: solid red 5px; */
+    margin: 5px;
+    padding: 5px;
+    color: var(--fs-search-text, #000);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.content-heading p {
+    color: var(--fs-search-text, #000);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 5px 10px;
+}
+
+.content-heading h1 {
+    background: linear-gradient(90deg, #0076CE 0.11%, #9400D3 43.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 45px;
+    padding: 10px 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content1 {
+    display: flex;
+    margin: 15px 0px;
+    padding: 30px 5px;
+}
+.content1 img{
+    height: 250px;
+    width: 150px;
+}
+.content2 img{
+    height: 350px;
+    width: 250px;
+    margin-top: -102px;
+}
+
+.text span {
+    display: flex;
+    width: 260px;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 3px 15px;
+    background: var(--fs-search-banner-purple, #EFD9F9);
+}
